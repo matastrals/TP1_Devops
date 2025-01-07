@@ -11,7 +11,9 @@ Pour lancer le projet il faut que vous fassiez les commandes suivantes à la rac
 Vous pouvez également changer le port d'écoute (par défault 3000) en éxécutant la commande :
 
 *(Windows CMD)* - ```set PING_LISTEN_PORT={port_choisis}```
+
 *(Windows Powershell)* - ```$env:PING_LISTEN_PORT={port_choisis}```
+
 *(Linux)* - ```export PING_LISTEN_PORT={port_choisis}```
 
 Vous avez maintenant un serveur web qui tourne et que vous pouvez accéder à [http://localhost:3000](http://localhost:3000)
